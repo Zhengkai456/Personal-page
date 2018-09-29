@@ -1,0 +1,54 @@
+p#one 
+   {
+   background-image: url('bgpic/1.jpg') ;
+   background-position: center center;
+   text-align:center;
+   font-family:'Times New Roman', Times, serif;
+   font-size:25px;
+   color:yellow;
+   }
+p#two
+   {
+   background-image: url('bgpic/2.jpg') ;
+   background-position: center center;
+   text-align:center;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size:25px;
+   color:rgb(255, 0, 157);
+   }
+p#three
+   {
+    background-image: url('bgpic/3.jpg') ;
+    background-position: center center;
+    text-align:center;
+    font-family:sans-serif;
+    font-size:25px;
+    color:white);
+   }
+p#four
+   {
+    background-image: url('bgpic/4.jpg') ;
+    background-position: center center;
+    text-align:center;
+    font-family:cursive;
+    font-size:25px;
+    color:rgba(255, 0, 21, 0.726);
+   }
+p#five
+   {
+    background-image: url('bgpic/5.png') ;
+   background-position: center center;
+   text-align:center;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:25px;
+   color:rgba(38, 0, 255, 0.74);
+   }
+p#six
+  {
+    background-image:url('bgpic/6.jpg');
+    background-position:center center;
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:70px;
+    color:blueviolet;
+  }
