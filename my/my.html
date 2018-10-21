@@ -1,17 +1,56 @@
 <!DOCTYPE html>
 <html>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <head>
-        <link rel="stylesheet" type="text/css" href="my.css" >
-    </head>
-    <body style="background-color:pink">
-        <p style="font-size:70px;background-color:white;text-align:center">
-           Welcome to Zhengkai's personal page!
-        </p>
-        <h1 style="text-align:center;font-size: 35px">
-            个人简介与资料
-        </h1>
-        <pre>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="my.css">
+    <title> Zhengkai's personal page </title>
+    <script>
+        function run() {
+            var x = document.getElementById("form").value;
+            var judge = /\d{11}/;
+            var y = judge.test(x);
+            if (y === true) {
+                alert("感谢输入！");
+            } else {
+                alert("请重新输入！");
+            }
+        }
+    </script>
+</head>
+
+<body style="background-color:pink" id="body">
+
+    <div>
+        <strong id="strong">
+            请输入你的手机号：
+        </strong>
+        <input type="text" name="phonenumber" id="form">
+        <button type="button" onclick="run()">
+            提交
+        </button>
+    </div>
+
+    <div style="text-align: center">
+        <button type='button' onclick="document.getElementById('body').style.backgroundColor='purple'" id="button">
+            点击变♂色
+        </button>
+    </div>
+
+    <div style="text-align: right">
+        <script>
+            document.write(Date());
+        </script>
+    </div>
+
+
+    <p style="font-size:70px;background-color:white;text-align:center">
+        Welcome to Zhengkai's personal page!
+    </p>
+    <h1 style="text-align:center;font-size: 35px">
+        个人简介与资料
+    </h1>
+    <pre>
             <p id="one">
                 我的名字：郑凯
                 我的性别：男
@@ -25,10 +64,10 @@
                 手机号：13871046683
             </p>
         </pre>
-        <h2 style="text-align:center;font-size: 35px">
-            我的爱好
-        </h2>
-        <pre>
+    <h2 style="text-align:center;font-size: 35px">
+        我的爱好
+    </h2>
+    <pre>
             <p id="two">
                 我的爱好有
                 <a href="#basket">篮球</a>
@@ -37,20 +76,20 @@
                 点击了解更多。
             </p>
         </pre>
-        <h3 style="text-align:center;font-size: 35px">
-            <a name="basket">篮球</a>
-        </h3>
-        <pre>
+    <h3 style="text-align:center;font-size: 35px">
+        <a name="basket">篮球</a>
+    </h3>
+    <pre>
             <p id="three">
                 我喜欢2号位，得分后卫，我喜欢在中距离投篮或突破上篮。
                 我最爱的篮球巨星是科比·布莱恩特。
                 <a href="https://v.qq.com/x/cover/8vvzoymhdkdj8dl/p0019i9tosd.html" target="_blank">这是他的100佳球集锦。 </a>
             </p>
         </pre>
-        <h4 style="text-align:center;font-size: 35px">
-            <a name="nihongo">日语</a>
-        </h4>
-        <pre>
+    <h4 style="text-align:center;font-size: 35px">
+        <a name="nihongo">日语</a>
+    </h4>
+    <pre>
             <p id="four">
                 我接触日语已经有6年时间了，现在已经基本可以与日本友人聊天。
                 我的目标是在大三之前考到N1证书，为此我会努力学习！
@@ -60,10 +99,10 @@
                 <script type="text/javascript" src="http://mediaplayer.yahoo.com/js"></script>
             </p>
         </pre>
-        <h5 style="text-align:center;font-size: 35px">
-            <a name="anime">动漫</a>
-        </h5>
-        <pre>
+    <h5 style="text-align:center;font-size: 35px">
+        <a name="anime">动漫</a>
+    </h5>
+    <pre>
             <p id="five">
                 安利时间到了（手动滑稽），给大家看看我的<del>老婆</del>
                 <a href="bgpic/yuzu.jpg" target="_blank">楪いのり</a>
@@ -74,12 +113,13 @@
                 等等......(此处省略100000人)
             </p>
         </pre>
-        <pre>
+    <pre>
         <p id="six">
 
            谢谢观看!
 
         </p>
         </pre>
-    </body>
+</body>
+
 </html>
