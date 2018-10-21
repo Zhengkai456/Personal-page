@@ -52,3 +52,12 @@ p#six
     font-size:70px;
     color:blueviolet;
   }
+
+button#button {
+    color: violet;
+}
+
+strong#strong {
+    font-size: 30px;
+    text-align: center;
+}
